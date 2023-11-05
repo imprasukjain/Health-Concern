@@ -32,10 +32,9 @@ AI Bot offers a wide range of features to improve the healthcare experience:
 
 ## Tech Stack
 
-- **AI**: Python for artificial intelligence.
-- **Chatbot**: Huggingface Transformers for chatbot technology.
+- **Chatbot and AI**: Python and Huggingface Transformers for chatbot technology.
 - **Frontend**: React.js for the user interface.
-- **Backend**: Node.js for server-side operations.
+- **Backend**: Django for server-side operations.
 - **Database**: PostgreSQL for secure and efficient data storage.
 
 ## Installation
@@ -45,22 +44,19 @@ To install and set up AI Bot on your system, follow these steps:
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/ai-bot.git
+   git clone https://github.com/imprasukjain/Health-Concern.git
    ```
 
 2. Navigate to the project directory:
 
    ```bash
-   cd ai-bot
+   cd backend
    ```
 
 3. Install dependencies for the frontend and backend:
 
    ```bash
-   cd frontend
-   npm install
-   cd ../backend
-   npm install
+   pip install -r requirements.txt
    ```
 
 4. Set up the PostgreSQL database and configure the connection.
@@ -71,7 +67,7 @@ To install and set up AI Bot on your system, follow these steps:
    cd frontend
    npm start
    cd ../backend
-   npm start
+   python manage.py run server
    ```
 
 6. Access the AI Bot application in your web browser.
@@ -86,6 +82,10 @@ We welcome contributions from the open-source community to enhance AI Bot furthe
 
 ## License
 
-This project is licensed under the [MIT License](LICENSE), which allows for free use, modification, and distribution.
+This project is licensed under the [GNU General Licence](LICENSE), which allows for free use, modification, and distribution.
 
 Join the healthcare revolution today with AI Bot and experience a future where healthcare is as easy as booking a dinner reservation.
+
+## Disclaimer
+
+Please Note: AI Bot is an ongoing project, and some of its functionalities might not be fully operational at this stage. We are actively working on this project to make it more robust and functional. Your feedback and contributions are highly appreciated as we continue to improve the system. Thank you for your understanding.
